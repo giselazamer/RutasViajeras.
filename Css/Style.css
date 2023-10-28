@@ -94,10 +94,16 @@ a{
     font-size:xx-small;
     text-align: center;
     color: white;
-    transition: 0,5s;
+    padding-top: 1rem;
 
 }
-
+.ZoomText{
+    
+    transition: transform 1s;
+}
+.ZoomText:hover{
+    transform: scaleX(-0.5);
+}
 .main_text .text_one{
     font-family: 'Satisfy', cursive;
     border-width: 5px;
