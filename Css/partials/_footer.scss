@@ -1,0 +1,31 @@
+footer {
+    background-color: rgba(240, 247, 252, 0.712);
+    flex-direction: column;
+    position: relative;
+    color: black;
+    width: 100%;
+    height: 50%;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-top: 3rem;
+  }
+  footer footer h3 {
+    text-align: center;
+  }
+  footer footer .pie {
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+  }
+  footer footer .pie .Iconos {
+    display: flex;
+    width: 35px;
+    text-align: center;
+    margin-left: 46%;
+    padding-right: 10px;
+    transform: rotateX(180deg);
+  }
+  footer footer li {
+    list-style: none;
+  }

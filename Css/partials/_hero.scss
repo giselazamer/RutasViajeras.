@@ -1,0 +1,44 @@
+.hero {
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .hero_header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    padding-bottom: 0;
+    position: relative;
+  }
+  .hero_header .hero_header .logo {
+    text-align: left;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 6rem;
+    padding-bottom: 4rem;
+    margin-left: 2rem;
+  }
+  .hero_header .hero_header .menu ul {
+    list-style: none;
+    text-decoration: none;
+    font-family: "Josefin Slab", serif;
+    font-style: initial;
+    font-weight: 900;
+    font-variant: small-caps;
+    font-size: 1.6rem;
+    font-weight: 1500;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    right: 2px;
+    padding-bottom: 3rem;
+  }
+  

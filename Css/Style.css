@@ -94,6 +94,8 @@ a{
     font-size:xx-small;
     text-align: center;
     color: white;
+    transition: 0,5s;
+
 }
 
 .main_text .text_one{

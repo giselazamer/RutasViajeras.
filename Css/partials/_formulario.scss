@@ -1,0 +1,54 @@
+.formulario {
+    width: 300px;
+    height: 400px;
+    padding: 16px;
+    border-radius: 10px;
+    margin-left: 25%;
+    background-color: #38a18a;
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .form-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .opciones {
+    padding: 1rem;
+    margin-left: 1.5rem;
+  }
+  
+  .formulario-2 > .opciones {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .vacaciones {
+    display: flex;
+    justify-content: start;
+    padding-left: 50px;
+  }
+  
+  input {
+    text-align: center;
+    background-color: rgb(215, 255, 243);
+  }
+  
+  .Frase {
+    font-family: "Urbanist", sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fondo-formulario {
+    background-color: rgba(83, 83, 83, 0.404);
+    width: 1000px;
+    height: 500px;
+    margin-left: 15%;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+  }
+  
